@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --rock : #B69E31;
+    --ghost: #70559B;
+    --steel: #B7B9D0;
+    --water: #6493EB;
+    --grass: #74CB48;
+    --psychic: #FB5584;
+    --ice: #9AD6DF;
+    --dark: #75574C;
+    --fairy: #E69EAC;
+    --normal: #AAA67F;
+    --fighting: #C12239;
+    --flying: #A891EC;
+    --posion: #A43E9E;
+    --ground: #DEC16B;
+    --bug: #A7B723;
+    --fire: #F57D31;
+    --electric: #F9CF30;
+    --dragon: #7037FF;
+
+}
+
+.bg-rock{
+    background-color: var(--rock);
+}
+.bg-ghost{
+    background-color: var(--ghost);
+}
+.bg-steel{
+    background-color: var(--steel);
+}
+.bg-water{
+    background-color: var(--water);
+}
+.bg-grass{
+    background-color: var(--grass);
+}
+.bg-psychic{
+    background-color: var(--psychic);
+}
+.bg-ice{
+    background-color: var(--ice);
+}
+.bg-dark{
+    background-color: var(--dark);
+}
+.bg-fairy{
+    background-color: var(--fairy);
+}
+.bg-normal{
+    background-color: var(--normal);
+}
+.bg-fighting{
+    background-color: var(--fighting);
+}
+.bg-flying{
+    background-color: var(--flying);
+}
+.bg-posion{
+    background-color: var(--posion);
+}
+.bg-ground{
+    background-color: var(--ground);
+}
+.bg-bug{
+    background-color: var(--bug);
+}
+.bg-fire{
+    background-color: var(--fire);
+}
+.bg-electric{
+    background-color: var(--electric);
+}
+.bg-dragon{
+    background-color: var(--dragon);
+}
+
+
+.rock{
+    color: var(--rock);
+}
+.ghost{
+    color: var(--ghost);
+}
+.steel{
+    color: var(--steel);
+}
+.water{
+    color: var(--water);
+}
+.grass{
+    color: var(--grass);
+}
+.psychic{
+    color: var(--psychic);
+}
+.ice{
+    color: var(--ice);
+}
+.dark{
+    color: var(--dark);
+}
+.fairy{
+    color: var(--fairy);
+}
+.normal{
+    color: var(--normal);
+}
+.fighting{
+    color: var(--fighting);
+}
+.flying{
+    color: var(--flying);
+}
+.posion{
+    color: var(--posion);
+}
+.ground{
+    color: var(--ground);
+}
+.bug{
+    color: var(--bug);
+}
+.fire{
+    color: var(--fire);
+}
+.electric{
+    color: var(--electric);
+}
+.dragon{
+    color: var(--dragon);
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+
+.miniCard{
+    width: 104px;
+    height: 112px;
+    overflow: hidden;
+    margin: 4px;
+    
+}
+
+.miniCard img{
+    padding: 16px 16px 0 16px;
+    width: 72px;
+    height: 72px;
+    margin: auto;
+    display: block;
+    
+
+
+}
+
+.miniCard span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    display: block;
+    text-align: end;
+
+}
+
+.miniCard p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    text-align: center;
+    height: 24px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.miniCard-container input{
+    display: inline-block;
+    width: 100%;
+}
