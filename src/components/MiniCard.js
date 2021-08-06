@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './styles/minicard.css'
 
 class MiniCard extends React.Component{
@@ -36,13 +37,14 @@ class MiniCard extends React.Component{
         
         const tipoPoke = `bg-${this.state.types}`
         
+        
         return(
-            <div className="miniCard">
+            <Link to={`/${this.props.name}`} className="miniCard">
                 <span >#0{this.state.number}</span>
                 <img src={this.state.imagen} alt={this.props.name}/>
                 <p className={tipoPoke.toLowerCase()}>{this.props.name}</p>
                 
-            </div>
+            </Link>
         )
     }
 }
