@@ -1,5 +1,6 @@
 import React from 'react'
 import MiniCard from './MiniCard'
+import PokemonPage from '../pages/PokemonPage'
 
 /* class Pokemons extends React.Component{
     state = {
@@ -73,6 +74,7 @@ function Pokemons(){
     
        
     return (
+        
             <div className='miniCard-container'>
                 <label>Filtro</label>
                 <input type="text" value={query} onChange={(e)=>{

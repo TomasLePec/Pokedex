@@ -1,19 +1,16 @@
 import React from 'react'
-import Pokemons from "./components/Pokemons";
-import Header from './components/Header';
-/* import Buscador from './components/Buscador' */
-import './components/styles/app.css'
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import Home from './pages/Home';
+import PokemonPage from './pages/PokemonPage';
 
 function App() {
   return (
-    <div>
-      <Header/>
-      {/* <Buscador/> */}
-      <div className="miniCard-container">
-        
-        <Pokemons />
-      </div>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/:pokemon" component={PokemonPage}/>
+      </Switch>
+    </BrowserRouter>
   )
 }
 
